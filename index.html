@@ -333,10 +333,10 @@ select.tj-fi { -webkit-appearance: none; appearance: none; line-height: 1.4; hei
 @keyframes tjtoast { 0% { opacity: 0; transform: translateX(-50%) translateY(14px); }
   12% { opacity: 1; transform: translateX(-50%) translateY(0); } 82% { opacity: 1; } 100% { opacity: 0; } }
 .tj-listhead { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 2px; }
-.tj-sortchip { border: 1px solid var(--line); background: var(--surface); border-radius: 20px; padding: 5px 10px; font-size: 11.5px;
+.tj-sortchip { border: 1px solid var(--line); background: var(--surface); border-radius: 20px; padding: 4px 9px; font-size: 10.5px;
   font-weight: 600; color: var(--muted); cursor: pointer; font-family: inherit; transition: all .15s; }
 .tj-sortchip[data-on="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent-ink); }
-.tj-catselect { border: 1px solid var(--line); background: var(--surface); border-radius: 20px; padding: 5px 22px 5px 10px; font-size: 11.5px;
+.tj-catselect { border: 1px solid var(--line); background: var(--surface); border-radius: 20px; padding: 4px 20px 4px 9px; font-size: 10.5px;
   font-weight: 600; color: var(--muted); font-family: inherit; -webkit-appearance: none; appearance: none;
   cursor: pointer; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2374756C' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 7px center; background-size: 9px; transition: all .15s; }
 .tj-catselect[data-on="true"] { background-color: var(--accent-soft); border-color: var(--accent); color: var(--accent-ink); background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 6'%3E%3Cpath d='M1 1l4 4 4-4' stroke='%2334527E' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); }
@@ -384,16 +384,16 @@ select.tj-fi { -webkit-appearance: none; appearance: none; line-height: 1.4; hei
 .tj-stats-headline .hb.shared .v2 { color: var(--accent-ink); }
 .tj-stats-headline .hb.personal .v2 { color: #A8875D; }
 .tj-exp-bkcards { display: flex; flex-direction: row; gap: 8px; margin-top: 12px; text-align: left; }
-.tj-exp-bk-shared { background: var(--accent-soft); border: 1px solid #C8D8EF; border-radius: 12px; padding: 11px 14px; flex: 1; }
-.tj-exp-bk-personal { background: #EEE8F8; border: 1px solid #C9B5E8; border-radius: 12px; padding: 11px 14px; display: flex; flex-direction: column; flex: 1; }
+.tj-exp-bk-shared { background: none; border: 1px solid #C8D8EF; border-radius: 12px; padding: 11px 14px; flex: 1; display: flex; flex-direction: column; }
+.tj-exp-bk-personal { background: none; border: 1px solid #C9B5E8; border-radius: 12px; padding: 11px 14px; display: flex; flex-direction: column; flex: 1; }
 .tj-exp-bk-tag { font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; margin-bottom: 8px; }
 .tj-exp-bk-shared .tj-exp-bk-tag { color: var(--accent-ink); }
-.tj-exp-bk-personal .tj-exp-bk-tag { color: #5B3F8C; margin-bottom: 8px; }
-.tj-exp-bk-row { display: flex; align-items: center; gap: 8px; }
+.tj-exp-bk-personal .tj-exp-bk-tag { color: #5B3F8C; }
+.tj-exp-bk-row { display: flex; align-items: flex-end; gap: 8px; margin-top: auto; }
 .tj-exp-bk-lbl { font-size: 10.5px; color: var(--accent-ink); opacity: .7; font-weight: 600; }
 .tj-exp-bk-sub { font-size: 14px; font-weight: 600; color: var(--accent-ink); opacity: .65; font-variant-numeric: tabular-nums; margin-top: 2px; }
-.tj-exp-bk-arrow { font-size: 13px; color: #8FA8CC; font-weight: 600; flex-shrink: 0; }
-.tj-exp-bk-main { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 2px; }
+.tj-exp-bk-arrow { font-size: 13px; color: #8FA8CC; font-weight: 600; flex-shrink: 0; padding-bottom: 2px; }
+.tj-exp-bk-main { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 600; font-variant-numeric: tabular-nums; margin-top: auto; }
 .tj-exp-bk-shared .tj-exp-bk-main { color: var(--accent); }
 .tj-exp-bk-personal .tj-exp-bk-main { color: #7048B6; }
 .tj-dimrow { display: flex; align-items: center; justify-content: space-between; margin-bottom: 8px; }
